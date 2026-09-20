@@ -1,0 +1,29 @@
+{
+  "name": "tech-solutions-paraipaba",
+  "version": "1.0.0",
+  "description": "Website institucional completo para serviços de TI, suporte técnico e desenvolvimento web em Paraipaba - CE",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node server/server.js",
+    "preview": "serve -s . -l 4173",
+    "check": "npx serve -s . -l 4173"
+  },
+  "keywords": [
+    "ti",
+    "suporte-tecnico",
+    "manutencao-computadores",
+    "montagem-pc",
+    "paraipaba",
+    "ceara",
+    "desenvolvimento-web"
+  ],
+  "author": "Matheus Silva",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "serve": "^14.2.6"
+  }
+}
